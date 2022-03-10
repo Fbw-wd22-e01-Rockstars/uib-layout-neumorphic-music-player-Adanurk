@@ -30,6 +30,9 @@ button{
     font-size: 2.5rem;
     border: none;
     color: #313131;
+    background: #e0e0e0;
+    box-shadow:  10px 10px 25px #bebebe,
+                -10px -10px 25px #ffffff;
 }
 
 .shut-down{
@@ -106,5 +109,8 @@ footer button{
     width: 50%;
     margin: 10px auto;
     border-radius: 20px;
-    background-color: #313131;
+    border-radius: 17px;
+    background: linear-gradient( #8B8B8B, white);
+    box-shadow:  12px 12px 24px #929292,
+             -12px -12px 24px #ffffff;
 }
