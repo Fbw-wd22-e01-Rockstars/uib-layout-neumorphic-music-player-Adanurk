@@ -2,15 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 .container{
     width: 80%;
-    height: 70%;
-    margin: 50px auto;
+    height: 80%;
+    margin: 40px auto;
     background-color: #E4E2E2;
-    border-radius: 40px;
+    border-radius: 17px;
     box-shadow: 5px 10px 18px #888888;
+    padding: 5px;
 }
 
 nav{
@@ -20,10 +22,89 @@ nav{
     padding: 10px;
 }
 
-nav button{
+button{
     margin: 20px;
     width: 100px;
     height: 100px;
     border-radius: 17px;
     font-size: 2.5rem;
+    border: none;
+    color: #313131;
+}
+
+.shut-down{
+    color: red;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px auto;
+    box-shadow: 5px 10px 20px #413f3f;
+}
+
+.track{
+    text-align: center;
+    font-size: 2rem;
+    margin: 30px;
+}
+
+.artist{
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: bolder;
+    color: #7E7E7F;
+    margin-bottom: 20px;
+}
+
+.process{
+    width: 80% ;
+    height: 10px;
+    margin: 10px auto;
+    display: flex;
+    border-radius: 20px;
+    border: solid #CBCBCB 1px;
+}
+
+.blue{
+    border-radius: 20px 0px 0px 20px;
+    width: 70%;
+    background: linear-gradient(0.25turn, #8CCAF4, #0F87D0, #52E4F1 ) ;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 130px;
+}
+
+footer button{
+    border-radius: 30px;
+    font-size: 3rem;
+    width: 90px;
+    height: 90px;
+}
+
+.play{
+    color: #51E4F2;
+}
+
+.line{
+    height: 7px;
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 20px;
+    background-color: #313131;
 }
